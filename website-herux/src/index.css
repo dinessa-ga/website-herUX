@@ -1,2 +1,45 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "herux_ligth";
+  default: true; /* set as default */
+  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: light; /* color of browser-provided UI */
+
+  --color-base-100: #FFFFFF;
+  --color-base-200: #F8F9FA;
+  --color-base-300: #E9ECEF;
+  --color-base-content: #212529;
+  --color-primary: #A0388B;
+  --color-primary-content: #FFFFFF;
+  --color-secondary: #4B662C;
+  --color-secondary-content: #FFFFFF;
+  --color-accent: #6B255D;
+  --color-accent-content: #FFFFFF;
+  --color-neutral: #6C757D;
+  --color-neutral-content: #FFFFFF;
+  --color-info: #0DCAF0;
+  --color-info-content: #000000;
+  --color-success: #198754;
+  --color-success-content: #FFFFFF;
+  --color-warning: #FFC107;
+  --color-warning-content: #000000;
+  --color-error: #BA1A1A;
+  --color-error-content: #FFFFFF;
+
+  /* border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  /* base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* border size */
+  --border: 1px;
+
+  /* effects */
+  --depth: 1;
+  --noise: 0;
+}
