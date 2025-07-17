@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm border-b border-base-300 px-4 rounded">
+    <div className="navbar fixed top-0 left-0 right-0 z-50 bg-base-100/95 backdrop-blur-sm shadow-sm border-b border-base-300 px-4">
       {/* Logo */}
       <div className="navbar-start">
         <div className="flex items-center space-x-2">
@@ -13,8 +13,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Navigation Links */}
-      <div className="navbar-center hidden lg:flex">
+      {/* Social Icons and CTA */}
+      <div className="navbar-end">
+        <div className="flex items-center space-x-3">
         <ul className="menu menu-horizontal px-1 space-x-4">
           <li>
             <a href="#" className="text-base-content hover:text-primary font-medium">
@@ -27,11 +28,6 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-      </div>
-
-      {/* Social Icons and CTA */}
-      <div className="navbar-end">
-        <div className="flex items-center space-x-3">
           {/* Social Icons */}
           <div className="hidden md:flex items-center space-x-2">
             {/* LinkedIn */}
