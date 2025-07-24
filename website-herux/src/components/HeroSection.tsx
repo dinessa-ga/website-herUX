@@ -8,7 +8,7 @@ const HeroSection = () => {
       title: "HerUX, experiencia que empodera.",
       subtitle:
         "Somos la primera comunidad de Mujeres Profesionales apasionadas por la Experiencia del Usuario en Guayaquil-Ecuador",
-      image: "/api/placeholder/1920/1080",
+      image: "src/assets/hero/1.png",
     },
     {
       title: "Aprende y crece con nosotras",
@@ -37,7 +37,18 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative h-screen w-full flex items-center justify-center bg-primary pt-16">
+    <section className="relative h-screen w-full flex items-center justify-center pt-16 overflow-hidden">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ease-in-out"
+        style={{
+          backgroundImage: `url(${slides[currentSlide].image})`,
+        }}
+      ></div>
+
+      {/* Purple Gradient Overlay - from sides to center */}
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/75 via-primary/15 to-primary/75 z-10"></div>
+
       {/* Content */}
       <div className="relative z-20 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
@@ -49,21 +60,7 @@ const HeroSection = () => {
             {slides[currentSlide].subtitle}
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button
-              type="button"
-              className="btn btn-lg bg-white text-primary hover:bg-base-200 border-none px-8 py-3 text-lg font-semibold rounded-lg"
-            >
-              Únete a la comunidad
-            </button>
-            <button
-              type="button"
-              className="btn btn-lg btn-outline border-white text-white hover:bg-white hover:text-primary px-8 py-3 text-lg font-semibold rounded-lg"
-            >
-              Conoce más
-            </button>
-          </div>
+       
         </div>
       </div>
 
@@ -124,22 +121,7 @@ const HeroSection = () => {
         ))}
       </div>
 
-      {/* Scroll Down Indicator */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-30 animate-bounce">
-        <svg
-          className="w-6 h-6 text-white"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M19 14l-7 7m0 0l-7-7m7 7V3"
-          ></path>
-        </svg>
-      </div>
+     
     </section>
   );
 };
