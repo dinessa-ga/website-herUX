@@ -14,38 +14,38 @@ const TestimonialsSection = () => {
   const testimonials: Testimonial[] = [
     {
       id: 1,
-      name: "María González",
-      role: "UX Designer",
-      content: "HerUX ha sido fundamental en mi crecimiento profesional. La comunidad me ha brindado oportunidades increíbles para aprender, conectar con otras profesionales y desarrollar mis habilidades en UX. Es un espacio seguro donde podemos compartir experiencias y apoyarnos mutuamente.",
-      image: "/api/placeholder/300/300"
+      name: "Stalin García",
+      role: "UX Lead Designer | Ing. En Computación",
+      content: "Ser cofundador y líder del equipo de eventos en HerUX ha sido una experiencia transformadora. Tuve el honor de colaborar en la coordinación de proyectos de capacitación, liderar iniciativas para fortalecer la comunidad como organización y planificar jornadas de networking que nos permitieron conectar con profesionales increíbles. Ver crecer a la comunidad y aportar a su impacto en el desarrollo de mujeres en UX ha sido profundamente gratificante.",
+      image: "https://secrecyjewels.es/blog/wp-content/uploads/2022/10/esencia-de-una-persona.jpg"
     },
     {
       id: 2,
-      name: "Ana Rodríguez",
-      role: "Product Designer",
-      content: "Formar parte de HerUX ha transformado mi carrera. Los eventos, talleres y la red de contactos que he construido aquí son invaluables. Es inspirador estar rodeada de mujeres tan talentosas y apasionadas por el diseño de experiencias.",
-      image: "/api/placeholder/300/300"
+      name: "Joseline Narcisa",
+      role: "N/A",
+      content: "Hola! Soy nutricionista y formo parte del equipo de voluntariado de HerUx. El pertenecer a esta comunidad me ha ayudado a comprender que es la experiencia al usuario y darle un enfoque distinto a mis consultas virtuales, además de aprender diferentes técnicas de comunicación, mejorar mis habilidades tanto duras como blandas, Olga, la líder siempre está pendiente de la comunidad y nos aconseja como mejorar nuestro perfil en LinkedIn para ser más visibles, los demás miembros siempre están dispuestos apoyarte con alguna duda o trabajo que tenga que ver con UX y en algunos casos UI. ¡Definitivamente me alegro de haberme unido a HerUx!",
+      image: "https://secrecyjewels.es/blog/wp-content/uploads/2022/10/esencia-de-una-persona.jpg"
     },
     {
       id: 3,
-      name: "Carmen Silva",
+      name: "Natalia García",
       role: "UI/UX Researcher",
-      content: "La comunidad HerUX es un lugar donde las mujeres en UX podemos crecer juntas. He participado en múltiples eventos que han enriquecido mi conocimiento y me han permitido conocer profesionales increíbles. ¡Totalmente recomendado!",
-      image: "/api/placeholder/300/300"
+      content: "Me desempeño como asistente de marketing y Comunicación. Ser parte del voluntariado en HerUX ha sido una oportunidad valiosa para contribuir desde mis habilidades en comunicación, organización y trabajo en equipo. Aquí he aprendido y compartido con personas increíbles. Invito a más mujeres profesionales comprometidas a sumarse a HerUX y ser parte de esta red colaborativa con propósito.",
+      image: "https://secrecyjewels.es/blog/wp-content/uploads/2022/10/esencia-de-una-persona.jpg"
     },
     {
       id: 4,
-      name: "Sofía Mendoza",
-      role: "Design Lead",
-      content: "HerUX no es solo una comunidad, es una familia. Aquí he encontrado mentoras, amigas y oportunidades de crecimiento que han marcado mi trayectoria profesional. El apoyo y la sororidad que se vive aquí es único.",
-      image: "/api/placeholder/300/300"
+      name: "Angie Gallo",
+      role: "Diseñadora de Productos | UX Researcher",
+      content: "HerUX me brindó un espacio dentro del grupo de UX Research donde puedo compartir ideas y aplicar mis conocimientos. Gracias a este espacio he podido coincidir con profesionales de gran calidad humana que enriquecen cada intercambio.",
+      image: "https://secrecyjewels.es/blog/wp-content/uploads/2022/10/esencia-de-una-persona.jpg"
     },
     {
       id: 5,
-      name: "Isabella Torres",
-      role: "UX Strategist",
-      content: "Participar en HerUX ha sido una de las mejores decisiones de mi carrera. Los workshops, networking events y el intercambio de conocimientos han sido clave para mi desarrollo profesional. ¡Gracias por crear este espacio tan valioso!",
-      image: "/api/placeholder/300/300"
+      name: "Bethsaida Chea M.",
+      role: "Ingeniera de Software | Gestora de Fábrica de Software.",
+      content: "Ser parte de HERUX ha transformado mi visión profesional. Aquí encontré apoyo, inspiración y nuevas oportunidades para crecer en UX y en otros aspectos del campo tecnológico. Es una comunidad que realmente empodera y conecta.",
+      image: "https://secrecyjewels.es/blog/wp-content/uploads/2022/10/esencia-de-una-persona.jpg"
     }
   ];
 
