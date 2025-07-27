@@ -11,7 +11,7 @@
   --color-base-300: #E9ECEF;
   --color-base-content: #212529;
   --color-primary: #A0388B;
-  --color-primary-content: #FFFFFF;
+  --color-primary-content: #EADDFF; /* Cambio de color primario para los esquemas según el figma - Diana */
   --color-secondary: #4B662C;
   --color-secondary-content: #FFFFFF;
   --color-accent: #6B255D;
@@ -26,6 +26,7 @@
   --color-warning-content: #000000;
   --color-error: #BA1A1A;
   --color-error-content: #FFFFFF;
+
 
   /* border radius */
   --radius-selector: 1rem;
