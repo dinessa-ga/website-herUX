@@ -4,18 +4,19 @@ import React from "react";
 const benefitsData = [
   {
     img: "/src/assets/hero/1.png",
-    title: "Beneficio 1",
+    title: "Desarrollo personal",
     text: "Brindamos charlas de habilidades blandas enfocada en lo personal y profesional con especialistas en el área."
   },
   {
     img: "/src/assets/hero/1.png",
-    title: "Beneficio 2",
-    text: "Descripción breve del beneficio 2."
+    title: "Desarrollo profesional",
+    text: "Brindamos participación dentro o fuera de la comunidad desde el área de tu interés. Asímismo tendrás la apertura de ser mentor para un junior, o ponente en alguna charla."
+
   },
   {
     img: "/src/assets/hero/1.png",
     title: "Beneficio 3",
-    text: "Descripción breve del beneficio 3."
+    text:"Descripción breve del beneficio 3."
   },
   {
     img: "/src/assets/hero/1.png",
@@ -43,7 +44,7 @@ const Benefits: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefitsData.map((benefit, idx) => (
             <div
-              className="flex flex-col-2 items-center bg-primary-content/20 border border-gray-300 rounded-lg shadow-md p-4 h-full transition-transform hover:scale-105"
+              className="flex flex-col-2 gap-4 p-4 items-center bg-primary-content/25 border border-gray-300 rounded-lg shadow-md  h-full transition-transform hover:scale-105"
               key={idx}
             >
               <div className="w-14 h-14 m-2 flex items-center justify-center bg-base-100 rounded-full overflow-hidden">
