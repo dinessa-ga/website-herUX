@@ -34,7 +34,7 @@ const VolunteerForm: React.FC = () => {
         if (!hasErrors) {
             // Aquí se puede hacer el envío
             console.log("Formulario enviado", form);
-            alert("Gracias por escribirnos ✨");
+            alert("Gracias por escribirno ✨");
         }
     };
 
